@@ -18,6 +18,7 @@ public void setUp() {
 @Test
 public void google() {
 	driver.get("http://google.com");
+	System.out.println(driver.getCurrentUrl());
 	
 }
 @AfterSuite
